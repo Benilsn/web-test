@@ -1,0 +1,24 @@
+<p></p> - paragrafo.
+
+<h1,2,3,4,5,6></h1> - titulos.
+
+<img src= "caminho da img" alt = "caso a imagem nao carregue"/>
+
+<br> - pula linha.
+
+<section></section>
+<article></article>
+<div></div> - organizar codigo.
+
+<head></head> - configuração de código.
+
+<title></title>
+
+<button onclick="document.getElementById('greetings').innerHTML = 'Bem Vindo: ' + prompt('Whats Your name?');">
+
+<body></body> - conteúdo do código.
+
+	----- LINK A CSS IN HTML ----
+
+<link href="style.css" rel="stylesheet" type="text/css" />
+
