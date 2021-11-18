@@ -6,19 +6,18 @@
 #logo-img {
     float: right;
     width: 100px;
-}
-
-#menu-img {
-    width: 50px;
-    background-color: transparent;
-    position: relative;
-}
-
-#menu-img:hover {
     cursor: pointer;
 }
 
-a {
+#menu-img {
+    padding: 10px 10px;
+    width: 50px;
+    background-color: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+a.list {
     text-decoration: none;
     color: rgba(248, 248, 248, 0.959);
     letter-spacing: 4px;
@@ -59,8 +58,6 @@ input[type="checkbox"]:checked ~ nav {
 }
 
 ul {
-    list-style: georgian;
-    position: absolute;
     width: 250px;   
     height: 110%;
 
