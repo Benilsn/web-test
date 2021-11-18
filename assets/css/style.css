@@ -5,13 +5,13 @@
 
 #logo-img {
     float: right;
-    width: 100px;
+    width: 50px;
     cursor: pointer;
 }
 
 #menu-img {
     padding: 10px 10px;
-    width: 50px;
+    width: 30px;
     background-color: transparent;
     position: relative;
     cursor: pointer;
@@ -20,50 +20,66 @@
 a.list {
     text-decoration: none;
     color: rgba(248, 248, 248, 0.959);
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     padding: 20px 5px;
     display: block;
     text-align: center;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
-a:hover {
+a.list:hover {
     background-color: rgb(82, 151, 88);
     color: white;
 }
 
 input[type="checkbox"] {
     display: none;
-    float: right;
 }
 
 body {
+    height: 100%;
     font-family: 'Times New Roman', Times, serif;
     list-style: none;
     background: url("background.jpg");
     background-size: 100%;
+    position: relative;
 }
 
 nav {
     background-color: rgba(77, 116, 77, 0.5);
-    height: 800px;
+    height: 645px;
     width: 250px;
     left: -300px;
     position: absolute;
     transition: all .5s;
 }
 
-input[type="checkbox"]:checked ~ nav {
+input[type="checkbox"]:checked~nav {
     transform: translateX(300px);
 }
 
 ul {
-    width: 250px;   
+    width: 250px;
     height: 110%;
-
+    position: relative;
 }
 
 label {
     position: absolute;
     z-index: 1;
+}
+
+#copyright {
+    padding: 5px 5px;
+    text-decoration: none;
+    color: rgb(161, 243, 161);
+    bottom: 0;
+    left: 80%;
+    position: fixed;
+    display: block;
+}
+
+#reference {
+    color: green;
+    text-decoration: none;
 }
