@@ -37,18 +37,15 @@ input[type="checkbox"] {
 }
 
 body {
-    height: 100%;
     font-family: 'Times New Roman', Times, serif;
     list-style: none;
-    background: url("background.jpg");
     background-size: 100%;
-    position: relative;
 }
 
 nav {
     background-color: rgba(77, 116, 77, 0.5);
     height: 645px;
-    width: 250px;
+    width: 200px;
     left: -300px;
     position: absolute;
     transition: all .5s;
@@ -59,7 +56,7 @@ input[type="checkbox"]:checked~nav {
 }
 
 ul {
-    width: 250px;
+    width: 200px;
     height: 110%;
     position: relative;
 }
