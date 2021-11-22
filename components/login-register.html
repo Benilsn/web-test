@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-<link href="../../web-test/assets/css/style.css" rel="stylesheet" type="text/css" />
+<link href="../assets/css/style.css" rel="stylesheet" type="text/css" />
 
 <head>
 
@@ -10,7 +10,6 @@
 
             document.getElementById(el).style.display = 'none';
             document.getElementById(el2).style.display = 'block';
-            
         }
 
     </script>
@@ -79,11 +78,17 @@
         }
 
         #register{
+            color: green;
             position: absolute;
             bottom: 20%;
-            left: 4%;
+            left: 40%;
             height: 30px;
             width: 80px;
+        }
+        h1 {
+            position: absolute;
+            left: 30%;
+            top: 5%;
         }
 
     </style>
@@ -111,6 +116,7 @@
     </nav>
 
     <div id="login-div">
+        <h1>Sign in</h1>
 
         </br></br>
         <h3 class="txt">Username: </h3><input class="info" type="text" placeholder="Username">
@@ -121,6 +127,7 @@
     </div>
 
     <div id="register-div">
+        <h1>Create account</h1>
         <h3 class="txt">ID : </h3><input class="info" type="text" placeholder="Client ID">
         </br></br>
         <h3 class="txt">First Name: </h3><input class="info" type="text" placeholder="First Name">
@@ -133,7 +140,6 @@
         </br></br>
         <a id="sign-in" onclick="minimize('register-div','login-div')">Already have an account?</a>
         <button id="register" type="submit">Register</button>
-
 
     </div>
 
