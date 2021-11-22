@@ -1,15 +1,17 @@
 * {
     padding: 0;
     margin: 0;
+    user-zoom: 100%;
+    min-zoom: 100%;
 }
 
-#logo-img {
+img.logo-img {
     float: right;
     width: 50px;
     cursor: pointer;
 }
 
-#menu-img:hover {
+img.menu-img:hover {
     background-color: rgb(152, 165, 201);
     padding: 10px 10px;
     width: 30px;
@@ -41,25 +43,27 @@ body {
     height: 100%;
     font-family: 'Times New Roman', Times, serif;
     list-style: none;
-    background-size: 100%;
+    background-size: 1600px 1000px;
+    background-position: 50;
 }
 
+
 nav {
-    background-color: rgba(77, 116, 77, 0.5);
+    background-color: rgba(109, 201, 109, 0.5);
     height: 100%;
-    width: 200px;
+    width: 250px;
     left: -300px;
     position: absolute;
     transition: all .5s;
 }
 
-input[type="checkbox"]:checked~nav {
+input[type="checkbox"]:checked ~ nav {
     transform: translateX(300px);
 }
 
 ul {
-    width: 200px;
     height: 110%;
+    width: 100%;
     position: relative;
 }
 
@@ -68,7 +72,7 @@ label {
     z-index: 1;
 }
 
-#copyright {
+div.copyright {
     padding: 10px 5px;
     color: rgb(161, 243, 161);
     bottom: 0;
@@ -80,5 +84,4 @@ label {
 #reference {
     color: rgb(187, 25, 25);
     text-decoration: none;
-
 }
