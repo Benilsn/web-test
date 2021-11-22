@@ -4,6 +4,19 @@
 <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
 
 <head>
+    <script>
+        async function getContent() {
+            try {
+                const response = await fetch('http://localhost:8080/api/v1/client/');
+
+            } catch (error) {
+                console.error('EROOoooooooOu');
+            }
+        }
+
+        getContent();
+    </script>
+
     <img class="logo-img" src="assets/img/Earth_recycle.png" alt="XX">
     <title>Recycle API</title>
 </head>
@@ -16,7 +29,7 @@
     <nav>
         <ul>
             <li><a class="list" href="index.html">Home</a></li>
-            <li><a class="list"  href="components/login-register.html">Sign up/ Sign in</a></li>
+            <li><a class="list" href="components/login-register.html">Sign up/ Sign in</a></li>
             <li><a class="list" href="">Materials</a></li>
             <li><a class="list" href="">Buy</a></li>
             <li><a class="list" href="">Sell</a></li>
