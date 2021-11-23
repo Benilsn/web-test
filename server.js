@@ -3,6 +3,8 @@ const cors = require('cors');
 const express = require('express');
 const app = express();
 
+console.log(req.toString)
+
 app.use(cors());
 
 app.get('/', function (req, res){
@@ -13,6 +15,6 @@ app.get('/', function (req, res){
     ])
 })
 
-app.listen('4568');
+app.listen('4567');
 
 

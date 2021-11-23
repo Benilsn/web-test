@@ -41,7 +41,14 @@
             transition: 1s;
         }
 
-        input.info {
+        input.login-info {
+            height: 30px;
+            width: 200px;
+            transform: translate(160px, 70px);
+        }
+
+
+        input.register-info {
             height: 30px;
             width: 200px;
             transform: translate(160px, 70px);
@@ -90,6 +97,7 @@
             left: 30%;
             top: 5%;
         }
+        
 
     </style>
 
@@ -119,8 +127,8 @@
         <h1>Sign in</h1>
 
         </br></br>
-        <h3 class="txt">Username: </h3><input class="info" type="text" placeholder="Username">
-        <h3 class="txt">Password: </h3><input class="info" type="password" placeholder="Password">
+        <h3 class="txt">Username: </h3><input class="login-info" type="text" placeholder="Username">
+        <h3 class="txt">Password: </h3><input class="login-info" type="password" placeholder="Password">
         <button id="submit" type="submit">Confirm</button>
         <a id="sign-up" onclick="minimize('login-div', 'register-div')">Not registered yet?</a>
 
@@ -128,18 +136,18 @@
 
     <div id="register-div">
         <h1>Create account</h1>
-        <h3 class="txt">ID : </h3><input class="info" type="text" placeholder="Client ID">
+        <h3 class="txt">ID : </h3><input class="register-info" type="text" placeholder="Client ID">
         </br></br>
-        <h3 class="txt">First Name: </h3><input class="info" type="text" placeholder="First Name">
+        <h3 class="txt">First Name: </h3><input class="register-info" type="text" placeholder="First Name">
         </br></br>
-        <h3 class="txt">Last Name: </h3><input class="info" type="text" placeholder="Last Name">
+        <h3 class="txt">Last Name: </h3><input class="register-info" type="text" placeholder="Last Name">
         </br></br>
-        <h3 class="txt">Age: </h3><input class="info" type="text" placeholder="Age">
+        <h3 class="txt">Age: </h3><input class="register-info" type="text" placeholder="Age">
         </br></br>
-        <h3 class="txt">E-mail: </h3><input class="info" type="text" placeholder="E-mail">
+        <h3 class="txt">E-mail: </h3><input class="register-info" type="text" placeholder="E-mail">
         </br></br>
         <a id="sign-in" onclick="minimize('register-div','login-div')">Already have an account?</a>
-        <button id="register" type="submit">Register</button>
+        <button id="register" type="submit" onclick="submitClient()">Register</button>
 
     </div>
 
@@ -151,6 +159,5 @@
         <a target="_blank" class="reference" href="https://github.com/Benilsn">Benilson .</a>
     </div>
 </footer>
-
 
 </html>
