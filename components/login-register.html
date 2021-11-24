@@ -12,7 +12,7 @@
 
 </head>
 
-<body style="background-image: url('../assets/img/background.jpg')">
+<body class="bg">
     <input type="checkbox" id="check">
     <label for="check">
         <img class="menu-img" src="../assets/img/icons8-menu-48.png" alt="">
@@ -34,9 +34,9 @@
         </br>
         </br>
         <h4 class="txt">Username: </h3><input class="login-info" type="text" placeholder="Username">
-        <h4 class="txt">Password: </h3><input class="login-info" type="password" placeholder="Password">
-        <button id="confirm" type="submit">Confirm</button>
-        <a id="sign-up" onclick="minimize('login-div', 'register-div')">Not registered yet?</a>
+            <h4 class="txt">Password: </h3><input class="login-info" type="password" placeholder="Password">
+                <button id="confirm" type="submit">Confirm</button>
+                <a id="sign-up" onclick="minimize('login-div', 'register-div')">Not registered yet?</a>
 
     </div>
 
@@ -44,24 +44,22 @@
 
         <h1 class="sign-up">- Create account -</h1>
         <h4 class="txt">ID : </h3><input id="id-info" class="register-info" type="text" placeholder="Client ID" name="id">
-        </br>
-        </br>
-        <h4 class="txt">First Name: </h3><input id="fname-info" class="register-info" type="text"
-            placeholder="First Name">
-        </br>
-        </br>
-        <h4 class="txt">Last Name: </h3><input id="lname-info" class="register-info" type="text"
-            placeholder="Last Name">
-        </br>
-        </br>
-        <h4 class="txt">Age: </h3><input id="age-info" class="register-info" type="text" placeholder="Age">
-        </br>
-        </br>
-        <h4 class="txt">E-mail: </h3><input id="email-info" class="register-info" type="text" placeholder="E-mail">
-        </br>
-        </br>
-        <a id="sign-in" onclick="minimize('register-div','login-div')">Already have an account?</a>
-        <button id="next" onclick="checkInfo()">Next</button>
+            </br>
+            </br>
+            <h4 class="txt">First Name: </h3><input id="fname-info" class="register-info" type="text" placeholder="First Name">
+                </br>
+                </br>
+                <h4 class="txt">Last Name: </h3><input id="lname-info" class="register-info" type="text" placeholder="Last Name">
+                    </br>
+                    </br>
+                    <h4 class="txt">Age: </h3><input id="age-info" class="register-info" type="text" placeholder="Age">
+                        </br>
+                        </br>
+                        <h4 class="txt">E-mail: </h3><input id="email-info" class="register-info" type="text" placeholder="E-mail">
+                            </br>
+                            </br>
+                            <a id="sign-in" onclick="minimize('register-div','login-div')">Already have an account?</a>
+                            <button id="next" onclick="checkInfo()">Next</button>
 
     </div>
 

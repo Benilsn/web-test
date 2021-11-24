@@ -9,27 +9,27 @@
             const resp =
                 await fetch('http://localhost:8080/api/v1/client/3')
 
-                    .then(function (resp) {
-                        return resp.json();
-                    })
+            .then(function(resp) {
+                return resp.json();
+            })
 
-                    .then(function (data) {
+            .then(function(data) {
 
-                        console.log(data);
+                console.log(data);
 
-                        /*dataToTable(data);*/
-                    })
+                /*dataToTable(data);*/
+            })
 
-                    .catch(function (error) {
-                        console.warn('Somethin went wrong!', error);
-                    });
+            .catch(function(error) {
+                console.warn('Somethin went wrong!', error);
+            });
         }
         getClient();
 
         // Function to define innerHTML for HTML table
         function dataToTable(data) {
             let tab =
-            `<tr>
+                `<tr>
             <th>Client ID|</th>
             <th>First Name|</th>
             <th>Last Name|</th>
@@ -48,15 +48,13 @@
             // Setting innerHTML as tab variable
             document.getElementById("clients").innerHTML = tab;
         }
-
-
     </script>
 
     <img class="logo-img" src="assets/img/Earth_recycle.png" alt="XX">
     <title>Recycle API</title>
 </head>
 
-<body style="background-image: url('assets/img/background.jpg')">
+<body class="bg">
     <input type="checkbox" id="check">
     <label for="check">
         <img class="menu-img" src="assets/img/icons8-menu-48.png" alt="">

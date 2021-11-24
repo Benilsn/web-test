@@ -4,6 +4,14 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+body.bg {
+    background-image: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: inherit;
+    background-attachment: fixed;
+}
+
 img.logo-img {
     float: right;
     width: 50px;
@@ -35,25 +43,17 @@ input[type="checkbox"] {
     display: none;
 }
 
-body {
-    height: 100%;
-    list-style: none;
-    background-size: 1600px 1000px;
-    background-position: 50;
-}
-
-
 nav {
     background-color: rgba(109, 201, 109, 0.5);
-    height: 100%;
-    width: 250px;
-    left: -300px;
+    height: fit-content;
+    width: 20%;
+    left: -20%;
     position: absolute;
     transition: all .5s;
 }
 
-input[type="checkbox"]:checked ~ nav {
-    transform: translateX(300px);
+input[type="checkbox"]:checked~nav {
+    transform: translateX(250px);
 }
 
 ul {
@@ -78,6 +78,7 @@ div.copyright {
 #reference {
     color: rgb(226, 223, 12);
 }
+
 
 /*#div-test{
     position:absolute;
