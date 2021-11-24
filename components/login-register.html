@@ -1,106 +1,13 @@
 <!DOCTYPE html>
 <html>
 
-<link href="../assets/css/style.css" rel="stylesheet" type="text/css" />
+<link href="../assets/css/main.css" rel="stylesheet" type="text/css" />
+<link href="../assets/css/login-register.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../scripts/script.js"></script>
 
 <head>
 
-    <script>
-        function minimize(el, el2) {
-
-            document.getElementById(el).style.display = 'none';
-            document.getElementById(el2).style.display = 'block';
-        }
-
-        function checkInfo() {
-
-            var id = document.getElementById('id-info');
-            var fname = document.getElementById('fname-info');
-            var lname = document.getElementById('lname-info');
-            var age = document.getElementById('age-info');
-            var email = document.getElementById('email-info');
-
-            if (id != "") {
-                if (id > 0) {
-                    if (fname.getAttribute.length > 3) {
-                        if (lname.getAttribute.length > 3) {
-                            if (age > 12) {
-                                if (email.getAttribute.length > 8) {
-                                    minimize('register-div', 'second-register-div')
-                                } else {
-                                    alert("invalid email!")
-                                }
-
-                            } else {
-                                alert("invalid age!")
-                            }
-                        } else {
-                            alert("last name is too short!")
-                        }
-                    } else {
-                        alert("first name is too short")
-                    }
-                }
-            } else {
-                alert('Null camps not allowed!')
-            }
-        }
-    </script>
-
-    <style>
-        #login-div {
-            background-color: rgba(69, 97, 56, 0.8);
-            display: block;
-            height: 60%;
-            width: 35%;
-            right: 40%;
-            bottom: 40%;
-            position: absolute;
-            transform: translate(50px, 70px);
-            border-radius: 5%;
-            transition: 1s;
-        }
-        
-        #register-div {
-            background-color: rgba(69, 97, 56, 0.8);
-            display: none;
-            height: 80%;
-            width: 35%;
-            right: 40%;
-            bottom: 20%;
-            position: absolute;
-            transform: translate(50px, 70px);
-            border-radius: 5%;
-            transition: 1s;
-        }
-        
-        #second-register-div {
-            background-color: rgba(69, 97, 56, 0.8);
-            display: none;
-            height: 60%;
-            width: 35%;
-            right: 40%;
-            bottom: 40%;
-            position: absolute;
-            transform: translate(50px, 70px);
-            border-radius: 5%;
-            transition: 1s;
-        }
-        
-        h3.txt {
-            color: black;
-            transform: translate(40px, 95px);
-        }
-        
-        h1 {
-            position: absolute;
-            left: 30%;
-            top: 5%;
-        }
-    </style>
-
-
-    <img class="logo-img" src="../../web-test/assets/img/Earth_recycle.png" alt="XX">
+    <img class="logo-img" src="../assets/img/Earth_recycle.png" alt="XX">
     <title>Recycle API</title>
 
 </head>
@@ -122,138 +29,53 @@
     </nav>
 
     <div id="login-div">
-        <h1> - Sign in - </h1>
 
+        <h1 class="sign-in"> - Sign in - </h1>
         </br>
         </br>
-        <h3 class="txt">Username: </h3><input class="login-info" type="text" placeholder="Username">
-        <h3 class="txt">Password: </h3><input class="login-info" type="password" placeholder="Password">
+        <h4 class="txt">Username: </h3><input class="login-info" type="text" placeholder="Username">
+        <h4 class="txt">Password: </h3><input class="login-info" type="password" placeholder="Password">
         <button id="confirm" type="submit">Confirm</button>
         <a id="sign-up" onclick="minimize('login-div', 'register-div')">Not registered yet?</a>
-
-        <style>
-            input.login-info {
-                height: 30px;
-                width: 200px;
-                transform: translate(160px, 70px);
-            }
-            
-            #confirm {
-                color: green;
-                position: absolute;
-                height: 30px;
-                width: 90px;
-                bottom: 30%;
-                left: 40%;
-            }
-            
-            #sign-up {
-                text-decoration: underline;
-                position: absolute;
-                left: 35%;
-                bottom: 20%;
-                color: yellow;
-                cursor: pointer;
-            }
-        </style>
 
     </div>
 
     <div id="register-div">
-        <h1>- Create account -</h1>
-        <h3 class="txt">ID : </h3><input id="id-info" class="register-info" type="text" placeholder="Client ID">
+
+        <h1 class="sign-up">- Create account -</h1>
+        <h4 class="txt">ID : </h3><input id="id-info" class="register-info" type="text" placeholder="Client ID" name="id">
         </br>
         </br>
-        <h3 class="txt">First Name: </h3><input id="fname-info" class="register-info" type="text" placeholder="First Name">
+        <h4 class="txt">First Name: </h3><input id="fname-info" class="register-info" type="text"
+            placeholder="First Name">
         </br>
         </br>
-        <h3 class="txt">Last Name: </h3><input id="lname-info" class="register-info" type="text" placeholder="Last Name">
+        <h4 class="txt">Last Name: </h3><input id="lname-info" class="register-info" type="text"
+            placeholder="Last Name">
         </br>
         </br>
-        <h3 class="txt">Age: </h3><input id="age-info" class="register-info" type="text" placeholder="Age">
+        <h4 class="txt">Age: </h3><input id="age-info" class="register-info" type="text" placeholder="Age">
         </br>
         </br>
-        <h3 class="txt">E-mail: </h3><input id="email-info" class="register-info" type="text" placeholder="E-mail">
+        <h4 class="txt">E-mail: </h3><input id="email-info" class="register-info" type="text" placeholder="E-mail">
         </br>
         </br>
         <a id="sign-in" onclick="minimize('register-div','login-div')">Already have an account?</a>
-        <button id="next" type="submit" onclick="checkInfo()">Next</button>
+        <button id="next" onclick="checkInfo()">Next</button>
 
-        <style>
-            input.register-info {
-                height: 30px;
-                width: 200px;
-                transform: translate(160px, 70px);
-            }
-            
-            #next {
-                color: green;
-                position: absolute;
-                bottom: 15%;
-                left: 40%;
-                height: 30px;
-                width: 80px;
-            }
-            
-            #sign-in {
-                text-decoration: underline;
-                position: absolute;
-                left: 35%;
-                bottom: 5%;
-                color: yellow;
-                cursor: pointer;
-            }
-        </style>
     </div>
 
-
     <div id="second-register-div">
-        <h1> - Account Settings - </h1>
+        <h1 class="account-settings"> - Account Settings - </h1>
         <h3 class="account-settings">Username: </h3><input class="account-settings" type="text">
-        </br>
-        </br>
         </br>
         <h3 class="account-settings">Password: </h3><input class="account-settings" type="password">
         </br>
-        </br>
-        </br>
         <h3 class="account-settings">Confirm password: </h3><input class="account-settings" type="password">
         </br>
-        </br>
         <button type="submit" id="register-btn">Register</button>
-        <button type="submit" id="cancel-btn" onclick="minimize('second-register-div', 'login-div')">Cancel</button>
+        <button type="submit" id="cancel-btn" onclick="minimize('second-register-div', 'register-div')">Cancel</button>
     </div>
-
-    <style>
-        h3.account-settings {
-            transform: translate(60px, 100px);
-        }
-        
-        input.account-settings {
-            transform: translate(230px, 78px);
-            height: 25px;
-            width: 200px;
-        }
-        
-        #register-btn {
-            position: absolute;
-            bottom: 15%;
-            left: 30%;
-            height: 30px;
-            width: 80px;
-        }
-        
-        #cancel-btn {
-            position: absolute;
-            bottom: 15%;
-            left: 50%;
-            height: 30px;
-            width: 80px;
-        }
-    </style>
-
-    </div>
-
 </body>
 
 <footer>

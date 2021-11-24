@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 img.logo-img {
@@ -25,7 +26,6 @@ a.list {
     padding: 20px 5px;
     display: block;
     text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
 a.list:hover {
@@ -39,7 +39,6 @@ input[type="checkbox"] {
 
 body {
     height: 100%;
-    font-family: 'Times New Roman', Times, serif;
     list-style: none;
     background-size: 1600px 1000px;
     background-position: 50;

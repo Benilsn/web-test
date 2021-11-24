@@ -1,0 +1,158 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* LOGIN DIV 
+ LOGIN DIV */
+
+#login-div {
+    background-color: rgba(69, 97, 56, 0.8);
+    display: block;
+    height: 45%;
+    width: 30%;
+    right: 40%;
+    bottom: 40%;
+    position: absolute;
+    transform: translate(50px, 70px);
+    border-radius: 5%;
+    transition: 1s;
+}
+
+
+h4.txt {
+    color: black;
+    transform: translate(10%, 450%);
+}
+
+h1.sign-in {
+    position: absolute;
+    left: 33%;
+    top: 10%;
+
+}
+
+input.login-info {
+    height: 30px;
+    width: 50%;
+    transform: translate(70%, 200%);
+}
+
+#confirm {
+    color: green;
+    position: absolute;
+    height: 10%;
+    width: 20%;
+    bottom: 20%;
+    left: 40%;
+}
+
+#sign-up {
+    text-decoration: underline;
+    position: absolute;
+    left: 33%;
+    bottom: 5%;
+    color: yellow;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+
+
+
+/* FIRST-REGISTER-DIV 
+ FIRST-REGISTER-DIV */
+
+#register-div {
+    background-color: rgba(69, 97, 56, 0.8);
+    display: none;
+    height: 70%;
+    width: 30%;
+    right: 40%;
+    bottom: 20%;
+    position: absolute;
+    transform: translate(50px, 70px);
+    border-radius: 5%;
+    transition: 1s;
+}
+
+h1.sign-up{
+    position: absolute;
+    left: 25%;
+    top: 2%;
+}
+
+input.register-info {
+    height: 5%;
+    width: 50%;
+    transform: translate(160px, 70px);
+}
+
+#next {
+    color: green;
+    position: absolute;
+    bottom: 13%;
+    left: 40%;
+    height: 6%;
+    width: 20%;
+}
+
+#sign-in {
+    text-decoration: underline;
+    position: absolute;
+    left: 32%;
+    bottom: 5%;
+    color: yellow;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+
+
+/* SECOND-REGISTER-DIV 
+   SECOND-REGISTER-DIV */
+
+#second-register-div {
+    background-color: rgba(69, 97, 56, 0.8);
+    display: none;
+    height: 45%;
+    width: 30%;
+    right: 40%;
+    bottom: 40%;
+    position: absolute;
+    transform: translate(50px, 70px);
+    border-radius: 5%;
+    transition: 1s;
+}
+
+h1.account-settings {
+    position: absolute;
+    left: 20%;
+}
+
+h3.account-settings {
+    transform: translate(7%, 100px);
+}
+
+input.account-settings {
+    transform: translate(220px, 75px);
+    height: 25px;
+    width: 200px;
+}
+
+#register-btn {
+    position: absolute;
+    bottom: 10%;
+    left: 30%;
+    height: 30px;
+    width: 80px;
+    color: green;
+}
+
+#cancel-btn {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    height: 30px;
+    width: 80px;
+    color: green;
+}
