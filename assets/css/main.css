@@ -7,8 +7,7 @@
 body.bg {
     background-image: url('../img/background.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: inherit;
+    background-size:cover;
     background-attachment: fixed;
 }
 
@@ -19,6 +18,7 @@ img.logo-img {
 }
 
 img.menu-img:hover {
+    background-color: red;
     padding: 10px 10px;
     width: 30px;
     background-color: transparent;
@@ -45,9 +45,9 @@ input[type="checkbox"] {
 
 nav {
     background-color: rgba(109, 201, 109, 0.5);
-    height: fit-content;
-    width: 20%;
-    left: -20%;
+    height: 600px;
+    width: 250px;
+    left: -250px;
     position: absolute;
     transition: all .5s;
 }
@@ -56,23 +56,23 @@ input[type="checkbox"]:checked~nav {
     transform: translateX(250px);
 }
 
-ul {
-    height: 110%;
-    width: 100%;
-    position: relative;
-}
-
 label {
     position: absolute;
     z-index: 1;
 }
 
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+
 div.copyright {
+    position: relative;
     padding: 10px 5px;
     color: rgb(161, 243, 161);
-    bottom: 0;
-    left: 85%;
-    position: fixed;
+    transform: translate(0px, 0px);
 }
 
 #reference {

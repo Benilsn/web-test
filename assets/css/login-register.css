@@ -9,10 +9,10 @@
 #login-div {
     background-color: rgba(69, 97, 56, 0.8);
     display: block;
-    height: 45%;
-    width: 30%;
-    right: 40%;
-    bottom: 40%;
+    height: 380px;
+    width: 550px;
+    left: 450px;
+    bottom: 300px;
     position: absolute;
     transform: translate(50px, 70px);
     border-radius: 5%;
@@ -21,35 +21,36 @@
 
 h4.txt {
     color: black;
-    transform: translate(10%, 450%);
+    transform: translate(70px, 95px);
 }
 
 h1.sign-in {
     position: absolute;
-    left: 33%;
-    top: 10%;
+    left: 200px;
+    top: 30px;
 }
 
 input.login-info {
+    letter-spacing: 1px;
     height: 30px;
-    width: 50%;
-    transform: translate(70%, 200%);
+    width: 300px;
+    transform: translate(180px, 70px);
 }
 
 #confirm {
     color: green;
     position: absolute;
-    height: 10%;
-    width: 20%;
-    bottom: 20%;
+    height: 40px;
+    width: 100px;
+    bottom: 80px;
     left: 40%;
 }
 
 #sign-up {
     text-decoration: underline;
     position: absolute;
-    left: 33%;
-    bottom: 5%;
+    left: 190px;
+    bottom: 20px;
     color: yellow;
     cursor: pointer;
     letter-spacing: 1px;
@@ -62,10 +63,10 @@ input.login-info {
 #register-div {
     background-color: rgba(69, 97, 56, 0.8);
     display: none;
-    height: 70%;
-    width: 30%;
-    right: 40%;
-    bottom: 20%;
+    height: 610px;
+    width: 550px;
+    left: 450px;
+    bottom: 150px;
     position: absolute;
     transform: translate(50px, 70px);
     border-radius: 5%;
@@ -74,30 +75,31 @@ input.login-info {
 
 h1.sign-up {
     position: absolute;
-    left: 25%;
+    left: 130px;
     top: 2%;
 }
 
 input.register-info {
-    height: 5%;
-    width: 50%;
-    transform: translate(160px, 70px);
+    letter-spacing: 1px;
+    height: 30px;
+    width: 250px;
+    transform: translate(180px, 70px);
 }
 
 #next {
     color: green;
     position: absolute;
-    bottom: 13%;
+    bottom: 80px;
     left: 40%;
-    height: 6%;
-    width: 20%;
+    height: 40px;
+    width: 100px;
 }
 
 #sign-in {
     text-decoration: underline;
     position: absolute;
-    left: 32%;
-    bottom: 5%;
+    left: 180px;
+    bottom: 20px;
     color: yellow;
     cursor: pointer;
     letter-spacing: 1px;
@@ -110,10 +112,10 @@ input.register-info {
 #second-register-div {
     background-color: rgba(69, 97, 56, 0.8);
     display: none;
-    height: 45%;
-    width: 30%;
-    right: 40%;
-    bottom: 40%;
+    height: 380px;
+    width: 550px;
+    left: 450px;
+    bottom: 300px;
     position: absolute;
     transform: translate(50px, 70px);
     border-radius: 5%;
@@ -122,25 +124,26 @@ input.register-info {
 
 h1.account-settings {
     position: absolute;
-    left: 20%;
+    left: 120px;
 }
 
-h3.account-settings {
-    transform: translate(7%, 100px);
+h4.account-settings {
+    transform: translate(40px, 100px);
 }
 
 input.account-settings {
+    letter-spacing: 1px;
     transform: translate(220px, 75px);
-    height: 25px;
-    width: 200px;
+    height: 30px;
+    width: 250px;
 }
 
 #register-btn {
     position: absolute;
     bottom: 10%;
     left: 30%;
-    height: 30px;
-    width: 80px;
+    height: 40px;
+    width: 100px;
     color: green;
 }
 
@@ -148,7 +151,7 @@ input.account-settings {
     position: absolute;
     bottom: 10%;
     left: 50%;
-    height: 30px;
-    width: 80px;
+    height: 40px;
+    width: 100px;
     color: green;
 }
