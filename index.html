@@ -4,53 +4,6 @@
 <link href="assets/css/main.css" rel="stylesheet" type="text/css" />
 
 <head>
-
-    <script>
-        async function getClient() {
-            const resp =
-                await fetch('http://localhost:8080/api/v1/client/3')
-
-            .then(function(resp) {
-                return resp.json();
-            })
-
-            .then(function(data) {
-
-                console.log(data);
-
-                /*dataToTable(data);*/
-            })
-
-            .catch(function(error) {
-                console.warn('Somethin went wrong!', error);
-            });
-        }
-        getClient();
-
-        // Function to define innerHTML for HTML table
-        function dataToTable(data) {
-            let tab =
-                `<tr>
-            <th>Client ID|</th>
-            <th>First Name|</th>
-            <th>Last Name|</th>
-            <th>Age|</th>
-            <th>Email|</th>
-            </tr>`;
-
-            tab += `<tr> 
-            <td>${data.clientId} </td>
-            <td>${data.firstName}</td>
-            <td>${data.lastName}</td> 
-            <td>${data.age}</td>  
-            <td>${data.email}</td>          
-            </tr>`;
-
-            // Setting innerHTML as tab variable
-            document.getElementById("clients").innerHTML = tab;
-        }
-    </script>
-
     <img class="logo-img" src="assets/img/Earth_recycle.png" alt="XX">
     <title>Recycle API</title>
 </head>
@@ -67,16 +20,10 @@
             <li><a class="list" href="">Materials</a></li>
             <li><a class="list" href="">Buy</a></li>
             <li><a class="list" href="">Sell</a></li>
+            <li><a class="list" href="components/database.html">Check Database</a></li>
             <li><a class="list" href="">Contact</a></li>
         </ul>
     </nav>
-    <!--
-     CODE TABLE USING REQUEST DATA \O/
-   <div id="div-test">
-        <h1>EMPLOYEES:</h1>
-        <table id="clients"></table>
-    </div> 
-    -->
 
 </body>
 
