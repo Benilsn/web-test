@@ -1,0 +1,328 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Users\\UNOP3802\\Downloads\\nodejs-0.10.0\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Users\\UNOP3802\\Downloads\\nodejs-0.10.0\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'i',
+1 verbose cli   'express',
+1 verbose cli   'axios',
+1 verbose cli   'nodemon' ]
+2 info using npm@1.2.14
+3 info using node@v0.10.0
+4 verbose node symlink C:\Users\UNOP3802\Downloads\nodejs-0.10.0\nodejs\\node.exe
+5 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\package.json
+6 warn package.json web-test@1.0.0 No README.md file found!
+7 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\@sindresorhus\package.json
+8 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\@szmarczak\package.json
+9 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\abbrev\package.json
+10 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\accepts\package.json
+11 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\ansi-align\package.json
+12 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\ansi-regex\package.json
+13 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\ansi-styles\package.json
+14 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\anymatch\package.json
+15 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\array-flatten\package.json
+16 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\axios\package.json
+17 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\balanced-match\package.json
+18 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\binary-extensions\package.json
+19 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\body-parser\package.json
+20 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\boxen\package.json
+21 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\brace-expansion\package.json
+22 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\braces\package.json
+23 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\bytes\package.json
+24 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\cacheable-request\package.json
+25 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\camelcase\package.json
+26 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\chalk\package.json
+27 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\chokidar\package.json
+28 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\ci-info\package.json
+29 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\cli-boxes\package.json
+30 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\clone-response\package.json
+31 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\color-convert\package.json
+32 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\color-name\package.json
+33 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\concat-map\package.json
+34 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\configstore\package.json
+35 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\content-disposition\package.json
+36 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\content-type\package.json
+37 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\cookie\package.json
+38 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\cookie-signature\package.json
+39 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\cors\package.json
+40 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\crypto-random-string\package.json
+41 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\debug\package.json
+42 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\decompress-response\package.json
+43 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\deep-extend\package.json
+44 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\defer-to-connect\package.json
+45 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\depd\package.json
+46 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\destroy\package.json
+47 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\dot-prop\package.json
+48 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\duplexer3\package.json
+49 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\ee-first\package.json
+50 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\emoji-regex\package.json
+51 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\encodeurl\package.json
+52 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\end-of-stream\package.json
+53 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\escape-goat\package.json
+54 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\escape-html\package.json
+55 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\etag\package.json
+56 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\express\package.json
+57 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\fill-range\package.json
+58 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\finalhandler\package.json
+59 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\follow-redirects\package.json
+60 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\forwarded\package.json
+61 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\fresh\package.json
+62 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\get-stream\package.json
+63 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\glob-parent\package.json
+64 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\global-dirs\package.json
+65 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\got\package.json
+66 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\graceful-fs\package.json
+67 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\has-flag\package.json
+68 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\has-yarn\package.json
+69 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\http-cache-semantics\package.json
+70 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\http-errors\package.json
+71 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\iconv-lite\package.json
+72 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\ignore-by-default\package.json
+73 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\import-lazy\package.json
+74 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\imurmurhash\package.json
+75 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\inherits\package.json
+76 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\ini\package.json
+77 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\ipaddr.js\package.json
+78 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\is-binary-path\package.json
+79 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\is-ci\package.json
+80 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\is-extglob\package.json
+81 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\is-fullwidth-code-point\package.json
+82 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\is-glob\package.json
+83 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\is-installed-globally\package.json
+84 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\is-npm\package.json
+85 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\is-number\package.json
+86 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\is-obj\package.json
+87 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\is-path-inside\package.json
+88 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\is-typedarray\package.json
+89 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\is-yarn-global\package.json
+90 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\json-buffer\package.json
+91 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\keyv\package.json
+92 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\latest-version\package.json
+93 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\lowercase-keys\package.json
+94 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\lru-cache\package.json
+95 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\make-dir\package.json
+96 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\media-typer\package.json
+97 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\merge-descriptors\package.json
+98 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\methods\package.json
+99 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\mime\package.json
+100 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\mime-db\package.json
+101 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\mime-types\package.json
+102 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\mimic-response\package.json
+103 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\minimatch\package.json
+104 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\minimist\package.json
+105 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\ms\package.json
+106 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\negotiator\package.json
+107 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\nodemon\package.json
+108 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\nopt\package.json
+109 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\normalize-path\package.json
+110 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\normalize-url\package.json
+111 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\object-assign\package.json
+112 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\on-finished\package.json
+113 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\once\package.json
+114 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\p-cancelable\package.json
+115 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\package-json\package.json
+116 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\parseurl\package.json
+117 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\path-to-regexp\package.json
+118 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\picomatch\package.json
+119 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\prepend-http\package.json
+120 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\proxy-addr\package.json
+121 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\pstree.remy\package.json
+122 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\pump\package.json
+123 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\pupa\package.json
+124 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\qs\package.json
+125 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\range-parser\package.json
+126 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\raw-body\package.json
+127 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\rc\package.json
+128 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\readdirp\package.json
+129 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\registry-auth-token\package.json
+130 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\registry-url\package.json
+131 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\responselike\package.json
+132 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\safe-buffer\package.json
+133 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\safer-buffer\package.json
+134 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\semver\package.json
+135 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\semver-diff\package.json
+136 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\send\package.json
+137 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\serve-static\package.json
+138 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\setprototypeof\package.json
+139 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\signal-exit\package.json
+140 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\statuses\package.json
+141 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\string-width\package.json
+142 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\strip-ansi\package.json
+143 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\strip-json-comments\package.json
+144 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\supports-color\package.json
+145 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\to-readable-stream\package.json
+146 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\to-regex-range\package.json
+147 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\toidentifier\package.json
+148 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\touch\package.json
+149 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\type-fest\package.json
+150 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\type-is\package.json
+151 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\typedarray-to-buffer\package.json
+152 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\undefsafe\package.json
+153 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\unique-string\package.json
+154 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\unpipe\package.json
+155 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\update-notifier\package.json
+156 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\url-parse-lax\package.json
+157 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\utils-merge\package.json
+158 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\vary\package.json
+159 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\widest-line\package.json
+160 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\wrap-ansi\package.json
+161 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\wrappy\package.json
+162 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\write-file-atomic\package.json
+163 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\xdg-basedir\package.json
+164 verbose read json C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\node_modules\yallist\package.json
+165 verbose from cache C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test\package.json
+166 verbose readDependencies using package.json deps
+167 verbose cache add [ 'express@^4.17.1', null ]
+168 verbose cache add name=undefined spec="express@^4.17.1" args=["express@^4.17.1",null]
+169 verbose parsed url { protocol: null,
+169 verbose parsed url   slashes: null,
+169 verbose parsed url   auth: null,
+169 verbose parsed url   host: null,
+169 verbose parsed url   port: null,
+169 verbose parsed url   hostname: null,
+169 verbose parsed url   hash: null,
+169 verbose parsed url   search: null,
+169 verbose parsed url   query: null,
+169 verbose parsed url   pathname: 'express@^4.17.1',
+169 verbose parsed url   path: 'express@^4.17.1',
+169 verbose parsed url   href: 'express@^4.17.1' }
+170 verbose cache add name="express" spec="^4.17.1" args=["express","^4.17.1"]
+171 verbose parsed url { protocol: null,
+171 verbose parsed url   slashes: null,
+171 verbose parsed url   auth: null,
+171 verbose parsed url   host: null,
+171 verbose parsed url   port: null,
+171 verbose parsed url   hostname: null,
+171 verbose parsed url   hash: null,
+171 verbose parsed url   search: null,
+171 verbose parsed url   query: null,
+171 verbose parsed url   pathname: '^4.17.1',
+171 verbose parsed url   path: '^4.17.1',
+171 verbose parsed url   href: '^4.17.1' }
+172 verbose addNamed [ 'express', '^4.17.1' ]
+173 verbose addNamed [ null, null ]
+174 verbose cache add [ 'axios@^0.24.0', null ]
+175 verbose cache add name=undefined spec="axios@^0.24.0" args=["axios@^0.24.0",null]
+176 verbose parsed url { protocol: null,
+176 verbose parsed url   slashes: null,
+176 verbose parsed url   auth: null,
+176 verbose parsed url   host: null,
+176 verbose parsed url   port: null,
+176 verbose parsed url   hostname: null,
+176 verbose parsed url   hash: null,
+176 verbose parsed url   search: null,
+176 verbose parsed url   query: null,
+176 verbose parsed url   pathname: 'axios@^0.24.0',
+176 verbose parsed url   path: 'axios@^0.24.0',
+176 verbose parsed url   href: 'axios@^0.24.0' }
+177 verbose cache add name="axios" spec="^0.24.0" args=["axios","^0.24.0"]
+178 verbose parsed url { protocol: null,
+178 verbose parsed url   slashes: null,
+178 verbose parsed url   auth: null,
+178 verbose parsed url   host: null,
+178 verbose parsed url   port: null,
+178 verbose parsed url   hostname: null,
+178 verbose parsed url   hash: null,
+178 verbose parsed url   search: null,
+178 verbose parsed url   query: null,
+178 verbose parsed url   pathname: '^0.24.0',
+178 verbose parsed url   path: '^0.24.0',
+178 verbose parsed url   href: '^0.24.0' }
+179 verbose addNamed [ 'axios', '^0.24.0' ]
+180 verbose addNamed [ null, null ]
+181 verbose cache add [ 'nodemon@^2.0.15', null ]
+182 verbose cache add name=undefined spec="nodemon@^2.0.15" args=["nodemon@^2.0.15",null]
+183 verbose parsed url { protocol: null,
+183 verbose parsed url   slashes: null,
+183 verbose parsed url   auth: null,
+183 verbose parsed url   host: null,
+183 verbose parsed url   port: null,
+183 verbose parsed url   hostname: null,
+183 verbose parsed url   hash: null,
+183 verbose parsed url   search: null,
+183 verbose parsed url   query: null,
+183 verbose parsed url   pathname: 'nodemon@^2.0.15',
+183 verbose parsed url   path: 'nodemon@^2.0.15',
+183 verbose parsed url   href: 'nodemon@^2.0.15' }
+184 verbose cache add name="nodemon" spec="^2.0.15" args=["nodemon","^2.0.15"]
+185 verbose parsed url { protocol: null,
+185 verbose parsed url   slashes: null,
+185 verbose parsed url   auth: null,
+185 verbose parsed url   host: null,
+185 verbose parsed url   port: null,
+185 verbose parsed url   hostname: null,
+185 verbose parsed url   hash: null,
+185 verbose parsed url   search: null,
+185 verbose parsed url   query: null,
+185 verbose parsed url   pathname: '^2.0.15',
+185 verbose parsed url   path: '^2.0.15',
+185 verbose parsed url   href: '^2.0.15' }
+186 verbose addNamed [ 'nodemon', '^2.0.15' ]
+187 verbose addNamed [ null, null ]
+188 silly lockFile 462f207e-express-4-17-1 express@^4.17.1
+189 verbose lock express@^4.17.1 C:\Users\UNOP3802\AppData\Roaming\npm-cache\462f207e-express-4-17-1.lock
+190 silly lockFile f5679c00-axios-0-24-0 axios@^0.24.0
+191 verbose lock axios@^0.24.0 C:\Users\UNOP3802\AppData\Roaming\npm-cache\f5679c00-axios-0-24-0.lock
+192 silly lockFile 5b960bcf-nodemon-2-0-15 nodemon@^2.0.15
+193 verbose lock nodemon@^2.0.15 C:\Users\UNOP3802\AppData\Roaming\npm-cache\5b960bcf-nodemon-2-0-15.lock
+194 info addNameTag [ 'express', '^4.17.1' ]
+195 info addNameTag [ 'axios', '^0.24.0' ]
+196 info addNameTag [ 'nodemon', '^2.0.15' ]
+197 verbose url raw express
+198 verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+199 verbose url resolved https://registry.npmjs.org/express
+200 info trying registry request attempt 1 at 07:50:31
+201 http GET https://registry.npmjs.org/express
+202 verbose url raw axios
+203 verbose url resolving [ 'https://registry.npmjs.org/', './axios' ]
+204 verbose url resolved https://registry.npmjs.org/axios
+205 info trying registry request attempt 1 at 07:50:32
+206 http GET https://registry.npmjs.org/axios
+207 verbose url raw nodemon
+208 verbose url resolving [ 'https://registry.npmjs.org/', './nodemon' ]
+209 verbose url resolved https://registry.npmjs.org/nodemon
+210 info trying registry request attempt 1 at 07:50:32
+211 http GET https://registry.npmjs.org/nodemon
+212 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+213 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+214 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+215 info trying registry request attempt 2 at 07:50:42
+216 http GET https://registry.npmjs.org/nodemon
+217 info trying registry request attempt 2 at 07:50:42
+218 http GET https://registry.npmjs.org/express
+219 info trying registry request attempt 2 at 07:50:42
+220 http GET https://registry.npmjs.org/axios
+221 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+222 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+223 info retry will retry, error on last attempt: Error: CERT_UNTRUSTED
+224 info trying registry request attempt 3 at 07:51:42
+225 http GET https://registry.npmjs.org/axios
+226 info trying registry request attempt 3 at 07:51:42
+227 http GET https://registry.npmjs.org/express
+228 info trying registry request attempt 3 at 07:51:42
+229 http GET https://registry.npmjs.org/nodemon
+230 silly lockFile 462f207e-express-4-17-1 express@^4.17.1
+231 silly lockFile 462f207e-express-4-17-1 express@^4.17.1
+232 silly lockFile f5679c00-axios-0-24-0 axios@^0.24.0
+233 silly lockFile f5679c00-axios-0-24-0 axios@^0.24.0
+234 error Error: CERT_UNTRUSTED
+234 error     at SecurePair.<anonymous> (tls.js:1271:32)
+234 error     at SecurePair.EventEmitter.emit (events.js:92:17)
+234 error     at SecurePair.maybeInitFinished (tls.js:883:10)
+234 error     at CleartextStream.read [as _read] (tls.js:421:15)
+234 error     at CleartextStream.Readable.read (_stream_readable.js:293:10)
+234 error     at EncryptedStream.write [as _write] (tls.js:330:25)
+234 error     at doWrite (_stream_writable.js:211:10)
+234 error     at writeOrBuffer (_stream_writable.js:201:5)
+234 error     at EncryptedStream.Writable.write (_stream_writable.js:172:11)
+234 error     at write (_stream_readable.js:547:24)
+234 error     at flow (_stream_readable.js:556:7)
+234 error     at Socket.pipeOnReadable (_stream_readable.js:588:5)
+235 error If you need help, you may report this log at:
+235 error     <http://github.com/isaacs/npm/issues>
+235 error or email it to:
+235 error     <npm-@googlegroups.com>
+236 error System Windows_NT 6.2.9200
+237 error command "C:\\Users\\UNOP3802\\Downloads\\nodejs-0.10.0\\nodejs\\\\node.exe" "C:\\Users\\UNOP3802\\Downloads\\nodejs-0.10.0\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "i" "express" "axios" "nodemon"
+238 error cwd C:\Users\UNOP3802\Documents\folder.dev\projects\frontend\web-test
+239 error node -v v0.10.0
+240 error npm -v 1.2.14
+241 verbose exit [ 1, true ]
